@@ -1,0 +1,38 @@
+@charset "utf-8";
+/* 段落のスタイル */
+p {
+  background-color: aqua;
+  line-height: 1.5;
+  text-align: center;
+}
+
+header {
+  max-width: 960px;
+  margin: auto;
+  border: 2px solid black;
+  padding: 10px 4%;
+  display: flex;
+  align-items: center; /* 縦方向の中央揃え */
+  justify-content: space-between; /* 横方向の両端揃え */
+}
+
+ul {
+  display: flex;
+  height: 22px;
+}
+
+h1{
+  width: 120px;
+  height: 40px;
+  display: flex; /* フレックスコンテナにする */
+  justify-content: center; /* 横方向の中央揃え */
+  align-items: center; /* 縦方向の中央揃え */
+  background-color: #393E46;
+  color: #FFFFFF;
+  padding: 10px 20px;
+  margin: 0;
+}
+
+ul {
+  list-style: none; /* liタグの箇条書きの点をなくす */
+}
